@@ -1,0 +1,28 @@
+package exam210705;
+
+import java.util.Scanner;
+
+public class 문항17 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str[] = { "가위", "바위", "보" };
+		String user, com;
+		int n;	// 컴퓨터가 랜덤하게 내는 것
+
+		System.out.println("컴퓨터와 가위 바위 보 게임을 합니다.");
+
+		do {
+			System.out.print("가위 바위 보! >> ");
+			user = sc.next();
+			
+			if(user.equals("그만")) break;
+			n = (int)(Math.random()*3);			// n = 0, 1, 2
+			com = str[n];
+			
+
+		} while (true);
+
+	}
+
+}

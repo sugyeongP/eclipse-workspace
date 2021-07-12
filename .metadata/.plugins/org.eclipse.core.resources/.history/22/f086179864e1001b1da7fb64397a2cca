@@ -1,0 +1,21 @@
+package test;
+
+public class 배열테스트 {
+
+	public static void main(String[] args) {
+
+		int[] studentIDs1 = new int[] {101, 102};
+	//	int[] studentIDs2 = new int[3] {101, 102};
+	//	int[] studentIDs3 = {102, 102};
+	//	int[] studentIDs4 ; 
+	//		studentIDs4 = new int[]; 
+	//		studentIDs4[0] = 101;
+	//		studentIDs4[1] = 102;
+			
+			
+			
+	System.out.println(studentIDs1[]);
+		
+	}
+
+}

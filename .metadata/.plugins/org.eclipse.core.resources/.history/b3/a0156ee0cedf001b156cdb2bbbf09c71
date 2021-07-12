@@ -1,0 +1,8 @@
+package step1;
+
+public abstract class Car {
+
+	public abstract void bus();
+	public abstract void autoCar();
+	
+}

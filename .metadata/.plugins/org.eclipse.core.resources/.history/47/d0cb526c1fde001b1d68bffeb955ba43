@@ -1,0 +1,13 @@
+package inheritance4;
+
+import inheritance4.B;
+
+public class ConstructorEX03 {
+
+	public static void main(String[] args) {
+
+		B b;
+		b = new B(5);
+	}
+
+}

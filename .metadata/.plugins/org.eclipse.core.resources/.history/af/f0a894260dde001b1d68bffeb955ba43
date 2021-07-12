@@ -1,0 +1,15 @@
+package inheritance2;
+
+import java.util.Set;
+
+public class Student extends Person {
+
+	public void set() {
+		age = 30;
+		name = "홍길동";
+		height = 175;
+		//weight = 99;		// Private, setter를 통해서 변수에 값을 할당
+		setWeight(99);
+		
+	}
+}

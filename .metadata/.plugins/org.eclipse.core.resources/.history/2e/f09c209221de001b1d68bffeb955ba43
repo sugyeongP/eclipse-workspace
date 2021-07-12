@@ -1,0 +1,27 @@
+package inheritance5;
+class C {
+	public C() {
+		System.out.println("持失切A");
+	}
+	public C(int x) {
+		System.out.println("古移痕呪持失切A");
+	}
+}
+class D extends C {
+	public D() {
+		System.out.println("持失切B");
+	}
+	public D(int x) {
+		System.out.println("古鯵痕呪持失切B");
+	}
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		C c;
+		c = new C(5);
+	}
+
+}
